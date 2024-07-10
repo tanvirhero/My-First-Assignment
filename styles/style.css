@@ -85,8 +85,12 @@
 #section-2{
     width: 85%;
     margin: 0 auto;
-    background-color: #a8e9ee;
-    height: 1100px;
+    background-color: #E7ECFF;
+    height: 1450px;
+}
+
+.section-2-1{
+    margin: 85px 97px;
 }
 
 .section-2-title{
@@ -132,25 +136,100 @@
 /* section-div */
 .section-div-1{
     display: flex;
-    justify-content: space-between;
-    border: 1px solid red;
+    /* justify-content: ; */
+    /* border: 1px solid red; */
     margin-top: 100px;
+    background-color: #ADC8F7;
+    border-radius: 8px;
+}
+
+.section-div-2{
+    padding: 58px 0px 57px 48px;
+}
+
+.section-div-img-2{
+    padding: 58px 0px 57px 48px;
+}
+
+.section-div-mid{
+    padding: 58px 149px 58px 25px;
+}
+
+.section-div-mid-img{
+    padding: 48px 0px 48px 48px;
+}
+
+.section-2-mid-btn{
+    margin-top: 35px;
+    margin-left: 12px;
 }
 
 /* section-3-style */
 
 .section-3{
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.section-3-title{
+.section-3-title,.section-4-title{
     font-size: 32px;
     font-weight: bolder;
     text-align: center;
 }
 
-.section-3-sub-title{
+.section-3-sub-title,.section-4-sub-title{
     text-align: center;
+    opacity: 0.7;
+
+}
+
+.section-3-video{
+    width: 1000px;
+    height: 500px;
+    border: 1px solid red;
+}
+
+/* section-4-style */
+
+#section-4-box{
+    
+    align-items: center;
+    gap: 20px;
+    display: flex;
+    justify-content:center
+    
+}
+
+.section-4-box{
+    position: static;
+    width: 300px;
+    height: 210px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+    margin-top: 48px;
+}
+
+.section-box-title{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+line-height: 10px;
+text-align: left;
+}
+
+.section-4-box-sub-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
     opacity: 0.7;
 
 }
