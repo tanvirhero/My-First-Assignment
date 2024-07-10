@@ -189,6 +189,7 @@
     width: 1000px;
     height: 500px;
     border: 1px solid red;
+    margin-top: 50px;
 }
 
 /* section-4-style */
@@ -224,6 +225,7 @@ font-weight: 800;
 line-height: 10px;
 text-align: left;
 }
+
 
 .section-4-box-sub-title{
     color: rgb(13, 19, 33);
@@ -297,4 +299,32 @@ height: 57px;
 font-weight: 600;
 line-height: 23px;
     margin-left: 10px;
+}
+
+/* footer-title */
+ footer{
+    margin-top: 50px;
+    width: 1140px;
+    height: 100px;
+    background: rgba(13, 19, 33, 0.03);
+ }
+.footer-title{
+color: rgb(13, 19, 33);
+font-size: 20px;
+margin-left: 150px;
+margin-top: 42px;
+}
+
+.footer-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.link-footer{
+    margin-right: 100px;
+    margin-top: 32px;
+    display: flex;
+    gap: 15px;
 }
